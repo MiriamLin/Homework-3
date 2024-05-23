@@ -74,6 +74,9 @@ class MyPortfolio:
         """
         TODO: Complete Task 4 Below
         """
+        first_asset = assets[5]
+        self.portfolio_weights[first_asset] = 1.0
+        self.portfolio_weights[self.exclude] = 0
 
         """
         TODO: Complete Task 4 Above
